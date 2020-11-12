@@ -20,17 +20,17 @@ public class App {
                 roll=s.next();
 
                 if (roll.equals("roll")){
-                    diceValue = snakeAndLadder.rollADice();
+//                    diceValue = snakeAndLadder.rollADice();
 
                     if (currentPlayer == 1) {
-                        player1 = snakeAndLadder.getCurrentPosition(player1, diceValue);
+                        player1 = snakeAndLadder.getCurrentPosition(player1, snakeAndLadder.rollADice());
                         if (snakeAndLadder.winPosition(player1)) {
                             System.out.println("You win!!");
                             return;
                         }
 
                     }
-                    currentPlayer = -currentPlayer;
+                    currentPlayer = currentPlayer;
                 } else if(roll.equals("quit")) {
                     System.out.println("You have exited the game!!!");
                     System.exit(0);

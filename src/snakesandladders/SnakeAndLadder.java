@@ -61,7 +61,7 @@ public class SnakeAndLadder {
             System.out.println("Hooray!! Up the ladder you go!!");
             playerPosition= ladder.get(playerPosition);
         }
-        System.out.println("You are on position " + playerPosition);
+        System.out.println("You are on position: " + playerPosition);
         return playerPosition;
     }
 
