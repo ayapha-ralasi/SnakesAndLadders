@@ -1,11 +1,13 @@
+package snakesandladders;
+
 import java.util.HashMap;
 import java.util.Map;
 
 public class SnakeAndLadder {
-    static int diceRoll;
-    static int currentPosition;
-    static final int WINNER=100;
-    static Map<Integer, Integer> snake = new HashMap<Integer, Integer>();
+     int diceRoll;
+     int currentPosition;
+     final int WINNER=100;
+     Map<Integer, Integer> snake = new HashMap<Integer, Integer>();
 
     {
         snake.put(20, 2);
@@ -14,6 +16,7 @@ public class SnakeAndLadder {
         snake.put(52, 45);
         snake.put(99, 23);
     }
+
     static Map<Integer,Integer>ladder = new HashMap<Integer, Integer>();
 
     {
@@ -24,7 +27,7 @@ public class SnakeAndLadder {
         ladder.put(55, 82);
     }
 
-    public static int rollADice(){
+    public  int rollADice(){
         int min = 1;
         int max = 6;
         int range = max - min +1;
@@ -35,8 +38,8 @@ public class SnakeAndLadder {
         return diceRoll;
     }
 
-    public static int getCurrentPosition(int playerPosition, int diceValue){
-        diceValue= rollADice();
+    public  int getCurrentPosition(int playerPosition, int diceValue){
+//        diceValue= rollADice();
 
         playerPosition = playerPosition +diceValue;
 
@@ -46,13 +49,13 @@ public class SnakeAndLadder {
             return playerPosition;
         }
 
-        if(null!= snake.get(playerPosition))
+        if(snake.get(playerPosition) != null)
         {
             System.out.println("oopsie!! You have been swallowed by a snake");
             playerPosition= snake.get(playerPosition);
         }
 
-        if(null!=ladder.get(playerPosition))
+        if(ladder.get(playerPosition)!=null)
         {
             System.out.println("Hooray!! Up the ladder you go!!");
             playerPosition= ladder.get(playerPosition);
@@ -61,6 +64,10 @@ public class SnakeAndLadder {
         return playerPosition;
     }
 
+    public  boolean winPosition(int player)
+    {
+        return WINNER == player;
+    }
 
 
 
