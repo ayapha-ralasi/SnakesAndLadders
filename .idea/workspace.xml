@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="10bbbaa7-4a1d-4d32-882a-220d87f1c035" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Snake&amp;Ladder/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Snake&amp;Ladder/SnakeAndLadder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Snake&amp;Ladder/snakesandladders/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Snake&amp;Ladder/snakesandladders/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Snake&amp;Ladder/snakesandladders/SnakeAndLadder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Snake&amp;Ladder/snakesandladders/SnakeAndLadder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Snake&amp;Ladder/snakesandladders/StaticSnakeAndLadder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Snake&amp;Ladder/snakesandladders/StaticSnakeAndLadder.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/snakesandladders/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/snakesandladders/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/snakesandladders/SnakeAndLadder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/snakesandladders/SnakeAndLadder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/snakesandladders/StaticSnakeAndLadder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/snakesandladders/StaticSnakeAndLadder.java" afterDir="false" />
@@ -45,7 +46,7 @@
       <recent name="sn" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StaticSnakeAndLadder">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="snakesandladders.App" />
       <module name="Snake&amp;Ladder" />
@@ -75,8 +76,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StaticSnakeAndLadder" />
         <item itemvalue="Application.App" />
+        <item itemvalue="Application.StaticSnakeAndLadder" />
         <item itemvalue="Application.SnakeAndLadder" />
       </list>
     </recent_temporary>
@@ -103,22 +104,22 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="469" y="283" width="484" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/67.27.1299.741@67.27.1299.741" timestamp="1605098255443" />
-    <state width="1253" height="218" key="GridCell.Tab.0.bottom" timestamp="1605121301664">
+    <state width="1253" height="120" key="GridCell.Tab.0.bottom" timestamp="1605171892465">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="218" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1605121301664" />
-    <state width="1253" height="218" key="GridCell.Tab.0.center" timestamp="1605121301663">
+    <state width="1253" height="120" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1605171892465" />
+    <state width="1253" height="120" key="GridCell.Tab.0.center" timestamp="1605171892464">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="218" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1605121301663" />
-    <state width="1253" height="218" key="GridCell.Tab.0.left" timestamp="1605121301662">
+    <state width="1253" height="120" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1605171892464" />
+    <state width="1253" height="120" key="GridCell.Tab.0.left" timestamp="1605171892463">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="218" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1605121301662" />
-    <state width="1253" height="218" key="GridCell.Tab.0.right" timestamp="1605121301663">
+    <state width="1253" height="120" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1605171892463" />
+    <state width="1253" height="120" key="GridCell.Tab.0.right" timestamp="1605171892465">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="218" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1605121301663" />
+    <state width="1253" height="120" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1605171892465" />
     <state width="1253" height="218" key="GridCell.Tab.1.bottom" timestamp="1605121301667">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
@@ -143,16 +144,5 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="380" y="175" key="run.anything.popup/67.27.1299.741@67.27.1299.741" timestamp="1605102696018" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/snakesandladders/SnakeAndLadder.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

@@ -8,24 +8,25 @@ public class SnakeAndLadder {
      int currentPosition;
      final int WINNER=100;
      Map<Integer, Integer> snake = new HashMap<Integer, Integer>();
+     Map<Integer,Integer>ladder = new HashMap<Integer, Integer>();
 
-    {
-        snake.put(20, 2);
-        snake.put(43, 6);
-        snake.put(87, 27);
-        snake.put(52, 45);
-        snake.put(99, 23);
-    }
+     public SnakeAndLadder(){
+         snake.put(20, 2);
+         snake.put(43, 6);
+         snake.put(87, 27);
+         snake.put(52, 45);
+         snake.put(99, 23);
 
-    static Map<Integer,Integer>ladder = new HashMap<Integer, Integer>();
+         ladder.put(4, 73);
+         ladder.put(11, 33);
+         ladder.put(30, 51);
+         ladder.put(38, 80);
+         ladder.put(55, 82);
+     }
 
-    {
-        ladder.put(4, 73);
-        ladder.put(11, 33);
-        ladder.put(30, 51);
-        ladder.put(38, 80);
-        ladder.put(55, 82);
-    }
+     public SnakeAndLadder(Object snake, Object ladder){
+
+     }
 
     public  int rollADice(){
         int min = 1;
